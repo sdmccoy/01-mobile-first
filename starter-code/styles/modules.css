@@ -12,6 +12,7 @@
   font-size: 3em;
   float: right;
 }
+
 .main-nav {
   padding: 0.1em;
 }
@@ -74,3 +75,22 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+
+@media screen and (min-width: 892px) {
+  .icon-menu{
+    display: none;
+  }
+  .main-nav li {
+    display: inline;
+    margin: 6%;
+
+  }
+  .main-nav ul {
+    display: inline;
+    margin: 0% 0% 0% 10%;
+  }
+
+  .main-nav:hover ul {
+    display: inline;
+  }
+}
